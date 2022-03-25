@@ -59,7 +59,7 @@ def f(x):
     return x
 print(integrer_trap(f,400,0,1))
 #Paramètres de la transformée discrète
-nb_coeffs = 500
+nb_coeffs = 250
 pasfourier=1000
 coeffs=np.zeros(2*nb_coeffs+1,dtype=np.clongdouble)
 
@@ -106,7 +106,7 @@ def renvoiePointsDepuisCoeffs():
         #on prend t par pas
         res=0
         for i in range(-nb_coeffs,nb_coeffs+1):
-            
+
             res=res+coeffs[i+nb_coeffs]*np.exp(facteur*i*1j*((t/nbbbbbbb)*2*np.pi))
         coordpoints[t]=res
     return(coordpoints)
@@ -127,6 +127,3 @@ for i in pts:
 screen.blit(ablit,(0,0))
 pygame.display.flip()
 time.sleep(1)
-
-
-

@@ -10,4 +10,6 @@ inspirée par cette vidéo de 3blue1brown https://www.youtube.com/watch?v=r6sGWT
 on a donc une fonction python qui intègre avec la méthode des trapezes les "fonctions mathématiques" qui correspondent aux dessins
 
 
+
+modifier la ligne 62 nb_coeffs = 500 avec une valeur entre 20 et 500 pour plus ou moins de précision, pour avoir des résultats divers
 #executer avec pygame et numpy d'installés mathsvifnale.py
