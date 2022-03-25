@@ -4,8 +4,8 @@ import numpy as np
 import time
 
 
-'''
 
+# DEBUT CODE POUR AFFICHER CLE DE SOL
 #Préparation des données
 points = open('data.json')
 donnéesjson = json.load(points)
@@ -16,6 +16,8 @@ nb_points = 200000
 liste_points = np.zeros(nb_points,dtype=np.clongdouble)
 for i in range(nb_points):
     liste_points[i] = donnéesjson[i].get('x')+1j*donnéesjson[i].get('y')
+
+#FIN CODE POUR AFFICHER CLE DE SOL
 
 '''
 files = open("data2.txt")
@@ -30,7 +32,7 @@ for i in range(nb_points):
     liste_points[i]=int(ligne[0:3])-100+1j*int(ligne[4:7])-200j
 
 
-
+''' #CODE A DECOMMENTER POUR AFFICHER "TIPE" a partir des donnees du fichier data2.txt
 
 
 
