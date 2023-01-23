@@ -1,3 +1,7 @@
+The goal was to study whether it was possible to encode (and maybe compress the amount of memory needed to store a shape) shapes with fourier's mathematical theory.
+
+
+
 Ces codes visent a mettre en place l'encodage d'une image (stockée dans data.json pour la clé de sol, stockée dans data2.txt pour les lettre "TIPE" )
 
 avec des coefficients de fourier (on stocke seulement les coeff pour encoder l'image)
