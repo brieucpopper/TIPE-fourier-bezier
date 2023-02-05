@@ -1,3 +1,5 @@
+This read-me is a work in progress...
+
 The goal was to study whether it was possible to encode (and maybe compress the amount of memory needed to store a shape) shapes with fourier's mathematical theory.
 
 
