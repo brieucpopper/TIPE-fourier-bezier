@@ -1,13 +1,8 @@
-Ces programmes pythons (peu documentés) ont été développés pendant ma deuxième année de prépa
+# Bézier curves (De Casteljau)
 
-il faut pygame afin de pouvoir les lancer
+Python programs from my second year of prépa. Needs `pygame` to run.
 
+Implements [De Casteljau's algorithm](https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm).
 
-Ce programme met en place l'algorithme de De_Casteljau https://en.wikipedia.org/wiki/De_Casteljau%27s_algorithm
-
-
-
-le programme bezierplusieurspoints.py est le plus intéressant et permet de dessiner manuellement plusieurs courbes de bézier
-(et on peut créer un fichier txt qui retient les données permettant d'enregistrer un dessin composé de plusieurs courbes de bézier)
-
-le programme bezierfrompoints trace a partir du fichier data2.txt des courbes de bezier, à partir des chiffres actuels un R est tracé
+- `bezierplusieurspoints.py` is the most interesting: draw several Bézier curves by hand, and save the drawing to a txt file
+- `bezierfrompoints.py` replays a txt file (`data2.txt` draws an R)
